@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/customerlabs-segment/static/css/main.9a5d05a0.css",
-    "main.js": "/customerlabs-segment/static/js/main.d9a9d38f.js",
-    "static/js/453.950999cd.chunk.js": "/customerlabs-segment/static/js/453.950999cd.chunk.js",
-    "index.html": "/customerlabs-segment/index.html",
-    "main.9a5d05a0.css.map": "/customerlabs-segment/static/css/main.9a5d05a0.css.map",
-    "main.d9a9d38f.js.map": "/customerlabs-segment/static/js/main.d9a9d38f.js.map",
-    "453.950999cd.chunk.js.map": "/customerlabs-segment/static/js/453.950999cd.chunk.js.map"
+    "main.css": "/AssessmentTask/static/css/main.9a5d05a0.css",
+    "main.js": "/AssessmentTask/static/js/main.0c43708b.js",
+    "static/js/453.950999cd.chunk.js": "/AssessmentTask/static/js/453.950999cd.chunk.js",
+    "index.html": "/AssessmentTask/index.html",
+    "main.9a5d05a0.css.map": "/AssessmentTask/static/css/main.9a5d05a0.css.map",
+    "main.0c43708b.js.map": "/AssessmentTask/static/js/main.0c43708b.js.map",
+    "453.950999cd.chunk.js.map": "/AssessmentTask/static/js/453.950999cd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9a5d05a0.css",
-    "static/js/main.d9a9d38f.js"
+    "static/js/main.0c43708b.js"
   ]
 }
