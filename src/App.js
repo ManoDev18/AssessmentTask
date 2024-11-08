@@ -45,7 +45,7 @@ function SaveSegmentComponent() {
   //       key: schema.value,
   //       value: options.find((option) => option.value === schema.value).label,
   //     }));
-    
+
   //   console.log("Segment Name:", segmentName);
   //   console.log("Schemas:", formattedSchemas);
   // };
@@ -107,11 +107,11 @@ function SaveSegmentComponent() {
         <div className='py-6 px-4'>
           <div className='flex flex-col gap-3'>
             <label>Enter the name of the Segment</label>
-            <input 
-                className='p-4 border border-gray-300 outline-none focus:border-cyan-500' type='text' 
-                placeholder='Name of the segment'
-                value={segmentName}
-                onChange={(e) => setSegmentName(e.target.value)} />
+            <input
+              className='p-4 border border-gray-300 outline-none focus:border-cyan-500' type='text'
+              placeholder='Name of the segment'
+              value={segmentName}
+              onChange={(e) => setSegmentName(e.target.value)} />
             <p className='py-3'>To save your segment,you need to add the schemas to bulid the query</p>
           </div>
           <ul className='flex items-center justify-end gap-4'>
@@ -163,10 +163,10 @@ function SaveSegmentComponent() {
           </div>
         </div>
         <div className='w-full fixed bottom-0 right-0 bg-gray-200 flex gap-3 p-6'>
-          <button 
-          onClick={saveSegment}
-              className='bg-green-400 font-semibold text-white text-base rounded py-2 px-3'>
-                Save the segment
+          <button
+            onClick={saveSegment}
+            className='bg-green-400 font-semibold text-white text-base rounded py-2 px-3'>
+            Save the segment
           </button>
           <button className='bg-white font-semibold text-red-600 text-base rounded py-2 px-3'>Cancle</button>
         </div>
