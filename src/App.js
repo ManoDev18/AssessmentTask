@@ -122,7 +122,7 @@ function SaveSegmentComponent() {
               - Group Tracks
             </li>
           </ul>
-          <div className="my-8">
+          <div style={{ height: 'calc(100vh - 440px)' }} className="my-8 overflow-auto custom-scroll">
             {schemas.map((schema) => (
               <div key={schema.id} className="flex items-center justify-between mb-4">
                 <span className="text-sm w-2 h-2 bg-emerald-400 rounded-full inline-block"></span>
